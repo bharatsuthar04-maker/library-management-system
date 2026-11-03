@@ -134,7 +134,7 @@ def dashboard():
     nav.pack(fill="x", side="top")
     nav.pack_propagate(False)
     
-    tk.Label(nav, text="Bharat Ji and Prakash Ji ka Project", font=("Segoe UI", 16, "bold"), bg=NAV_BG, fg=PRIMARY).pack(side="left", padx=20)
+    tk.Label(nav, text=""Smart Library Management System"", font=("Segoe UI", 16, "bold"), bg=NAV_BG, fg=PRIMARY).pack(side="left", padx=20)
 
     # Main Content Area
     content = ttk.Frame(root, padding=25)
